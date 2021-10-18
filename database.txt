@@ -1,0 +1,39 @@
+
+---------------------------------------------------------
+
+nome tabella : "auto usate concessionario"
+
+---------------------------------------------------------
+
+id - PRIMARY_KEY  intero - MEDIUMINT - NOTNULL - AUTOINCREMENT
+
+
+disponibile - booleano - TINYINT - NOTNULL
+prezzo - numero decimale - FLOAT (7,2) - NOTNULL
+anno_di_immatricolazione - data - YEAR - NOTNULL
+casa_produttrice - stringa - VARCHAR(100) - NOTNULL
+modello - stringa - VARCHAR(100) - NOTNULL
+colore - stringa - VARCHAR(50) - NOTNULL
+vernice_metallizzata - booleano - TINYINT - NULL
+chilometri - intero - MEDIUMINT - NOTNULL
+alimentazione - stringa - VARCHAR(180) - NOTNULL
+posti - intero - SMALLINT - NOTNULL
+città - stringa - VARCHAR(180) - NOTNULL
+potenza_erogata - stringa - VARCHAR(100) - NOTNULL
+cilindrata - stringa - VARCHAR(100) - NOTNULL
+consumi - stringa - VARCHAR(100) - NOTNULL
+emissioni - stringa - VARCHAR(100) - NOTNULL
+porte - intero - TINYINT - NOTNULL
+targa - stringa - VARCHAR(7) - NOTNULL - UNIQUE
+cambio_manuale - booleano - TINYINT - NULL
+cambio_automatico - booleano - TINYINT - NULL
+numero_marce - intero - TINYINT - NULL
+trazione_anteriore - booleano - TINYINT - NULL
+trazione_posteriore - booleano - TINYINT - NULL
+peso_a_vuoto - numero decimale - FLOAT(6,2) - NOTNULL
+numero_proprietari_precedenti - intero - TINYINT - NOTNULL
+formato_gomme - stringa - VARCHAR(50) - NOTNULL
+cerchi_in_lega - booleano - TINYINT - NULL
+abs - booleano - TINYINT - NULL
+ruota_di_scorta - booleano - TINYINT - NULL
+kit_pronto_soccorso - booleano - TINYINT - NULL
